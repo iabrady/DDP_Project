@@ -23,7 +23,13 @@ shinyUI(
                    min = 1,
                    max = 9),
       h5("Each cluster is shown in a different color, and the cluster centers 
-         are shown with the black diamonds.")
+         are shown with the black diamonds."),
+      h5("Select which species you'd like to display:"),
+      radioButtons("radio", "Species:",
+                   list("None" = "none",
+                        "Setosa" = "setosa",
+                        "Versicolor" = "versicolor",
+                        "Virginica" = "virginica"))
     ),
     mainPanel(
       plotOutput('plotIt')
