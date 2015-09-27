@@ -15,11 +15,13 @@ four variables (`sepal.length`, `sepal.width`, `petal.length`, or `petal.width`)
 to be used to cluster and then selects the number of clusters (from 1 to 9). 
 
 Files in this repo:  
+1.  .gitignore  
+4.  DDP_Project.png - a screenshot of my `shiny` app  
+2.  DDP_presentation.Rpres - the rpresentation file of my presentation.  
+2.  DDP_presentation.md - the markdown version.  
+2.  README.md - this file  
 1.  DDP_Project.Rproj - The Rproject file for my project  
 2.  server.R - shiny server file  
 3.  ui.R - shiny ui file  
-4.  DDP_Project.png - a screenshot of my `shiny` app  
-5.  DDP_Project.html - an html version of my presentation  
-6.  DDP_Project.rpres - the rpres version of my presentation  
 
 
